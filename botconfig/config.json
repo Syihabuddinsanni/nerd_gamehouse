@@ -1,0 +1,39 @@
+{
+   "token": "OTM4MzcxNzk3MDk3Nzk1NjM0.YfpU1g.5hXM2dJ4l4VJd92WKAeAQ3p4IlU",
+   "prefix": "s!",
+   "ownerIDS": [
+      "309182131811254272"
+   ],
+   "memer_api": "0jSlSZubj3b",
+   "status": {
+      "text": "Nerd GameHouse",
+      "text2": "aldo anjing",
+      "type": "PLAYING",
+      "url": "https://twitch.tv/nerdgamehouse"
+   },
+   "clientsettings": {
+      "nodes": [
+         {
+            "host": "lava.link",
+            "port": 80,
+            "password": "techboy"
+        
+         }
+      ]
+   },
+   "spotify": {
+      "clientSecret": "1b5aedea6eb04358aaebee7d76047f80",
+      "clientID": "b458566df412473d800daacdd5937e8f"
+   },
+   "settings": {
+      "leaveOnEmpty_Channel": {
+         "enabled": true,
+         "time_delay": 30000
+      },
+      "LeaveOnEmpty_Queue": {
+         "enabled": true,
+         "time_delay": 30000
+      },
+      "selfDeaf": true
+   }
+}
