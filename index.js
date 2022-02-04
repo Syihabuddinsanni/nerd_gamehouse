@@ -30,7 +30,7 @@ const emojis = require("./botconfig/emojis.json")
 const config = require("./botconfig/config.json")
 const advertisement = require("./botconfig/advertisement.json")
 const { delay } = require("./handlers/functions")
-
+require('dotenv').config()
 
 /**********************************************************
  * @param {2} CREATE_THE_DISCORD_BOT_CLIENT with some default settings
