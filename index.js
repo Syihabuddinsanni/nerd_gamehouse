@@ -26,11 +26,12 @@ const enmap = require("enmap");
 const fs = require("fs"); 
 const OS = require('os');
 const Events = require("events");
-const emojis = require("./botconfig/emojis.json")
-const config = require("./botconfig/config.json")
-const advertisement = require("./botconfig/advertisement.json")
-const { delay } = require("./handlers/functions")
-require('dotenv').config()
+const emojis = require("./botconfig/emojis.json");
+const config = require("./botconfig/config.json");
+const advertisement = require("./botconfig/advertisement.json");
+const { delay } = require("./handlers/functions");
+const Meme = require("memer-api");
+require('dotenv').config();
 
 /**********************************************************
  * @param {2} CREATE_THE_DISCORD_BOT_CLIENT with some default settings
@@ -72,7 +73,7 @@ const client = new Discord.Client({
 /**********************************************************
  * @param {4} Create_the_client.memer property from Tomato's Api 
  *********************************************************/
-const Meme = require("memer-api");
+// const Meme = require("memer-api");
 client.memer = new Meme(process.env.memer_api || config.memer_api); // GET a TOKEN HERE: https://discord.gg/Mc2FudJkgP
 
 
