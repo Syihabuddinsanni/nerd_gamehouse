@@ -131,7 +131,7 @@ module.exports = {
           menumsg.edit({
             embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)],
             components: [],
-            content: `${collected && collected.first() && collected.first().values ? `<a:yes:833101995723194437> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`
+            content: `${collected && collected.first() && collected.first().values ? `<a:Check_List_Ijo:870279724906197033>  **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`
           })
         });
       }
@@ -139,7 +139,7 @@ module.exports = {
       client.settings.ensure(message.guild.id, {
         suggest: {
           channel: "",
-          approvemsg: `<a:yes:833101995723194437> Accepted Idea! Expect this soon.`,
+          approvemsg: `<a:Check_List_Ijo:870279724906197033>  Accepted Idea! Expect this soon.`,
           denymsg: `<:no:833101993668771842> Thank you for the feedback, but we are not interested in this idea at this time.`,
           maybemsg: `💡 We are thinking about this idea!`,
           duplicatemsg: `💢 This is a duplicated Suggestion`,

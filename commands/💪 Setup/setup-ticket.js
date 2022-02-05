@@ -146,7 +146,7 @@ module.exports = {
             if (menu?.values[0] == "Cancel") return menu?.reply(eval(client.la[ls]["cmds"]["setup"]["setup-ticket"]["variable3"]))
             menuselection(menu)
           } else menu?.reply({
-            content: `<:NO:886994166666645504> You are not allowed to do that! Only: <@${cmduser.id}>`,
+            content: `<:no:939372664559132723> You are not allowed to do that! Only: <@${cmduser.id}>`,
             ephemeral: true
           });
         });
@@ -155,7 +155,7 @@ module.exports = {
           menumsg.edit({
             embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)],
             components: [],
-            content: `${collected && collected.first() && collected.first().values ? `<a:Check_List_Ijo:878170554815905792> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**"}`
+            content: `${collected && collected.first() && collected.first().values ? `<a:Check_List_Ijo:870279724906197033> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**"}`
           })
         });
       }
@@ -264,7 +264,7 @@ module.exports = {
             if (menu?.values[0] == "Cancel") return menu?.reply(eval(client.la[ls]["cmds"]["setup"]["setup-ticket"]["variable3"]))
             menuselection(menu)
           } else menu?.reply({
-            content: `<:NO:886994166666645504> You are not allowed to do that! Only: <@${cmduser.id}>`,
+            content: `<:no:939372664559132723> You are not allowed to do that! Only: <@${cmduser.id}>`,
             ephemeral: true
           });
         });
@@ -273,7 +273,7 @@ module.exports = {
           menumsg.edit({
             embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)],
             components: [],
-            content: `${collected && collected.first() && collected.first().values ? `<a:Check_List_Ijo:878170554815905792> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**"}`
+            content: `${collected && collected.first() && collected.first().values ? `<a:Check_List_Ijo:870279724906197033> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**"}`
           })
         });
       }
@@ -708,7 +708,7 @@ module.exports = {
                   if (menu?.values[0] == "Cancel") return menu?.reply(eval(client.la[ls]["cmds"]["setup"]["setup-ticket"]["variable3"]))
                   menuselection(menu)
                 } else menu?.reply({
-                  content: `<:NO:886994166666645504> You are not allowed to do that! Only: <@${cmduser.id}>`,
+                  content: `<:no:939372664559132723> You are not allowed to do that! Only: <@${cmduser.id}>`,
                   ephemeral: true
                 });
               });
@@ -717,7 +717,7 @@ module.exports = {
                 menumsg.edit({
                   embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)],
                   components: [],
-                  content: `${collected && collected.first() && collected.first().values ? `<a:Check_List_Ijo:878170554815905792> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**"}`
+                  content: `${collected && collected.first() && collected.first().values ? `<a:Check_List_Ijo:870279724906197033> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**"}`
                 })
               });
             }
